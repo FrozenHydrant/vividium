@@ -39,19 +39,17 @@ displayName="${mod_name}" #mandatory
 #logoFile="examplemod.png" #optional
 
 # A text field displayed in the mod UI
-#credits="" #optional
+credits="Special thanks to Create (I looked at their code) and https://www.youtube.com/watch?v=Q5041hErnvA" #optional
 
 # The authors of the mod, displayed in the mod UI (optional)
-#authors=""
+authors="BetaThunder"
 
 # The description text for the mod (multi line!) (#mandatory)
-description='''
-Example mod description.
-'''
+description="Do you treasure this world? Do you consider stability and order more important than desire?"
 
 # The [[mixins]] block allows you to declare your mixin config to FML so that it gets loaded.
-#[[mixins]]
-#config="${mod_id}.mixins.json"
+[[mixins]]
+config="${mod_id}.mixins.json"
 
 # The [[accessTransformers]] block allows you to declare where your AT file is.
 # If this block is omitted, a fallback attempt will be made to load an AT from META-INF/accesstransformer.cfg
